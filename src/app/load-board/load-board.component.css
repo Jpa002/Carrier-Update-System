@@ -13,8 +13,7 @@ hr {
     margin-bottom:70px;
     background-color:black;
  }
-h3{
-    margin-left: 225px;
-    margin-top: 55px; 
-}
-
+ table{
+     border: black 1px;
+     margin-left:15px;
+ }

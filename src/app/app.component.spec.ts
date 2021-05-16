@@ -1,11 +1,16 @@
 import { TestBed, async } from '@angular/core/testing';
+import { Button } from 'selenium-webdriver';
 import { AppComponent } from './app.component';
+
+import { LoadBoardComponent } from './load-board/load-board.component';
+import {Routes, RouterModule} from '@angular/router';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        LoadBoardComponent
       ],
     }).compileComponents();
   }));
